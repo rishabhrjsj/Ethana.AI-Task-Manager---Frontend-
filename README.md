@@ -1,4 +1,6 @@
-# React + Vite
+# Ethana.AI Task Manager — Frontend
+
+React + Vite frontend for the Ethana.AI Task Manager.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
