@@ -9,9 +9,11 @@ const DashboardLayout = () => {
     <div className="min-h-screen bg-[#f8f9fb]">
       <Sidebar collapsed={collapsed} setCollapsed={setCollapsed} />
       <div
-        className={`transition-all duration-300 ${collapsed ? 'ml-[72px]' : 'ml-64'}`}
+        className={`transition-all duration-300 ${collapsed ? 'ml-[72px]' : 'ml-64'} min-h-screen`}
       >
-        <Outlet context={{ collapsed }} />
+        <div className="min-h-screen pb-10">
+          <Outlet context={{ collapsed }} />
+        </div>
       </div>
     </div>
   );

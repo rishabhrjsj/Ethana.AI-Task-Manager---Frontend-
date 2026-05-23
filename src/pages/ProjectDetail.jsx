@@ -152,7 +152,7 @@ const ProjectDetail = () => {
   return (
     <>
       <Navbar title={project.name} />
-      <main className="p-6">
+      <main className="p-6 pb-10">
         {project.description && (
           <div className="mb-4 rounded-lg border border-gray-200 bg-white shadow-sm">
             <button

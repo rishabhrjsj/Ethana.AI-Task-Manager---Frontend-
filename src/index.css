@@ -9,4 +9,11 @@ body {
 
 #root {
   min-height: 100vh;
+  min-height: 100dvh;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
 }

@@ -31,7 +31,7 @@ const Team = () => {
   return (
     <>
       <Navbar title="Team" subtitle="View all team members" />
-      <main className="p-6">
+      <main className="p-6 pb-10">
         {!isAdmin ? (
           <EmptyState
             title="Admin access required"

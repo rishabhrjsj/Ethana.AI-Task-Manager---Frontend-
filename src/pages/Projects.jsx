@@ -52,7 +52,7 @@ const Projects = () => {
   return (
     <>
       <Navbar title="Projects" subtitle="Manage your team projects" />
-      <main className="p-6">
+      <main className="p-6 pb-10">
         <div className="mb-6 flex items-center justify-between">
           <p className="text-sm text-gray-500">{projects.length} project(s)</p>
           {isAdmin && (

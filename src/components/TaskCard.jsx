@@ -10,7 +10,7 @@ const TaskCard = ({ task, onStatusChange, canEdit = true, onClick }) => {
 
   return (
     <div
-      className="group cursor-pointer rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-violet-200 hover:shadow-md"
+      className="group shrink-0 cursor-pointer overflow-visible rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-violet-200 hover:shadow-md"
       onClick={onClick}
     >
       <div className="mb-2 flex items-start justify-between gap-2">

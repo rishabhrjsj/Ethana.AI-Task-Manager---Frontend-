@@ -89,7 +89,7 @@ const Tasks = () => {
   return (
     <>
       <Navbar title="Tasks" subtitle="Kanban board view" />
-      <main className="p-6">
+      <main className="p-6 pb-10">
         {projects.length > 0 ? (
           <>
             <div className="mb-6 max-w-xs">

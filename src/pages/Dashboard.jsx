@@ -74,7 +74,7 @@ const Dashboard = () => {
   return (
     <>
       <Navbar title="Dashboard" subtitle={`Welcome back, ${user?.name}`} />
-      <main className="p-6">
+      <main className="p-6 pb-10">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <StatsCard title="Total Tasks" value={stats?.totalTasks || 0} icon={ListTodo} color="violet" />
           <StatsCard title="Completed" value={stats?.completedTasks || 0} icon={CheckCircle2} color="green" />
